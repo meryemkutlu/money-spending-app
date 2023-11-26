@@ -1,9 +1,13 @@
 import React from "react";
 
-function Header({ money }) {
+function Header({ total, money }) {
   return (
     <>
-      <div>Harcamak icin {money}$ paraniz var! </div>
+      <div>
+        {(total > 0 && <>Harcayacak {money - total}$ paraniz kaldi!</>) || (
+          <>Harcamak icin {money} $ paraniz var!</>
+        )}
+      </div>
     </>
   );
 }
