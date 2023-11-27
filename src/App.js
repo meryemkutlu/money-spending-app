@@ -8,6 +8,10 @@ function App() {
   const [basket, setBasket] = useState([]);
   const [total, setTotal] = useState(0);
 
+  const resetBasket = () => {
+    setBasket([]);
+  };
+
   useEffect(() => {
     setTotal(
       basket.reduce((acc, item) => {
@@ -25,11 +29,14 @@ function App() {
       {products.map((product) => (
         <Product
           key={product.id}
+          total={total}
+          money={money}
           basket={basket}
           setBasket={setBasket}
           product={product}
         />
       ))}
+      <button onClick={resetBasket}>Sepeti sifirla</button>
     </>
   );
 }
