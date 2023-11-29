@@ -2,21 +2,25 @@
   {
     "id": 1,
     "title": "Sakiz",
-    "price": 0.5
+    "price": 0.5,
+    "image": "https://images.migrosone.com/sanalmarket/product/07124238/07124238-be7324-1650x1650.jpg"
   },
   {
     "id": 2,
     "title": "Kola",
-    "price": 6
+    "price": 6,
+    "image": "https://images.migrosone.com/sanalmarket/product/08011740/8011740_yan-7132f5-1650x1650.jpg"
   },
   {
     "id": 3,
     "title": "Ayakkabi",
-    "price": 400
+    "price": 400,
+    "image": "https://st-vans.mncdn.com/mnresize/1500/1500/Content/media/ProductImg/original/637475259553736655.jpg"
   },
   {
     "id": 4,
     "title": "Araba",
-    "price": 40000
+    "price": 40000,
+    "image": "https://docsd.toyzzshop.com/product/600x600/205bb_1:24_Volkswagen_Polo_GTI_Mark_5_Model_Araba.jpg"
   }
 ]
